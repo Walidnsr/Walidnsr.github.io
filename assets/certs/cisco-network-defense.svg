@@ -1,0 +1,44 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cisco Network Defense">
+  <defs>
+    <linearGradient id="cFrame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fbdee"/><stop offset="1" stop-color="#1488c4"/>
+    </linearGradient>
+    <linearGradient id="cWave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fd6f2"/><stop offset="1" stop-color="#1a93cf"/>
+    </linearGradient>
+    <linearGradient id="cWave2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9e4f7"/><stop offset="1" stop-color="#3fb4e0"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cClip"><rect x="16" y="16" width="328" height="328" rx="30"/></clipPath>
+  </defs>
+
+  <!-- frame -->
+  <rect x="6" y="6" width="348" height="348" rx="40" fill="url(#cFrame)"/>
+  <g clip-path="url(#cClip)">
+    <rect x="16" y="16" width="328" height="328" fill="#ffffff"/>
+    <!-- waves -->
+    <rect x="16" y="120" width="328" height="170" fill="url(#cWave)"/>
+    <path d="M16,150 C90,120 150,180 220,150 C280,126 320,160 344,148 L344,300 L16,300 Z" fill="url(#cWave2)" opacity="0.85"/>
+    <path d="M16,188 C80,160 150,212 230,184 C295,162 330,196 344,186 L344,300 L16,300 Z" fill="#1a93cf" opacity="0.7"/>
+    <path d="M16,224 C90,200 160,246 240,220 C300,202 332,232 344,224 L344,300 L16,300 Z" fill="#0f7bb5" opacity="0.65"/>
+    <!-- bottom white curve -->
+    <path d="M16,300 C120,278 240,278 344,300 L344,344 L16,344 Z" fill="#ffffff"/>
+    <!-- top logo -->
+    <g transform="translate(40,44)"><rect x="0" y="15.0" width="3.4" height="10" rx="1.7" fill="#0b5cab"/><rect x="6.2" y="11.0" width="3.4" height="18" rx="1.7" fill="#0b5cab"/><rect x="12.4" y="7.0" width="3.4" height="26" rx="1.7" fill="#0b5cab"/><rect x="18.6" y="11.0" width="3.4" height="18" rx="1.7" fill="#0b5cab"/><rect x="24.8" y="7.0" width="3.4" height="26" rx="1.7" fill="#0b5cab"/><rect x="31.0" y="11.0" width="3.4" height="18" rx="1.7" fill="#0b5cab"/><rect x="37.2" y="7.0" width="3.4" height="26" rx="1.7" fill="#0b5cab"/><rect x="43.400000000000006" y="11.0" width="3.4" height="18" rx="1.7" fill="#0b5cab"/><rect x="49.60000000000001" y="15.0" width="3.4" height="10" rx="1.7" fill="#0b5cab"/></g>
+    <text x="40" y="82" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="800" fill="#0b5cab" letter-spacing="0.5">cisco</text>
+    <text x="132" y="60" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="600" fill="#1b3a52">Networking</text>
+    <text x="132" y="80" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="600" fill="#1b3a52">Academy</text>
+    <!-- verified ribbon -->
+    <rect x="16" y="100" width="118" height="34" fill="#0a2540"/>
+    <text x="40" y="123" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Verified</text>
+    <!-- credential name -->
+    <text x="180" y="332" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#0a2540">Network Defense</text>
+    <!-- gloss -->
+    <rect x="16" y="16" width="328" height="200" fill="url(#gloss)"/>
+  </g>
+</svg>

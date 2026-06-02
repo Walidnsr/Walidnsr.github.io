@@ -1,0 +1,28 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TryHackMe SOC Level 1 and 2">
+  <defs>
+    <radialGradient id="thmPlate" cx="0.5" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#1c3350"/><stop offset="1" stop-color="#0c1626"/>
+    </radialGradient>
+    <linearGradient id="thmGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bdf25b"/><stop offset="1" stop-color="#79b317"/>
+    </linearGradient>
+    <linearGradient id="thmGloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="thmClip"><rect x="8" y="8" width="344" height="344" rx="34"/></clipPath>
+  </defs>
+  <rect x="8" y="8" width="344" height="344" rx="34" fill="url(#thmPlate)"/>
+  <rect x="8" y="8" width="344" height="344" rx="34" fill="none" stroke="#88cc14" stroke-opacity="0.6" stroke-width="2.5"/>
+  <g transform="translate(180,144)">
+    <path d="M0,-88 L76,-44 V44 L0,88 L-76,44 V-44 Z" fill="#0b1422" stroke="url(#thmGreen)" stroke-width="5"/>
+    <path d="M0,-60 L52,-30 V30 L0,60 L-52,30 V-30 Z" fill="none" stroke="#88cc14" stroke-opacity="0.35" stroke-width="2"/>
+    <text x="-28" y="8" text-anchor="middle" font-family="'Courier New',monospace" font-size="42" font-weight="700" fill="#88cc14">&gt;_</text>
+    <text x="24" y="2" text-anchor="middle" font-family="'Courier New',monospace" font-size="24" font-weight="700" fill="#bdf25b">SOC</text>
+    <text x="0" y="46" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#d6efa6" letter-spacing="2">LEVEL 1 · 2</text>
+  </g>
+  <text x="180" y="300" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="800" fill="#fff">TryHackMe</text>
+  <text x="180" y="324" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" fill="#88cc14" letter-spacing="1">SOC Analyst Path</text>
+  <g clip-path="url(#thmClip)"><rect x="8" y="8" width="344" height="190" fill="url(#thmGloss)"/></g>
+</svg>

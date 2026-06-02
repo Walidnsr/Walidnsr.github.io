@@ -1,0 +1,28 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fortinet NSE 1 2 3 Certified">
+  <defs>
+    <linearGradient id="fnRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff4133"/><stop offset="1" stop-color="#a8190f"/>
+    </linearGradient>
+    <radialGradient id="fnPlate" cx="0.5" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#2a2f36"/><stop offset="1" stop-color="#15181c"/>
+    </radialGradient>
+    <linearGradient id="fnGloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="fnClip"><rect x="8" y="8" width="344" height="344" rx="34"/></clipPath>
+  </defs>
+  <rect x="8" y="8" width="344" height="344" rx="34" fill="url(#fnPlate)"/>
+  <rect x="8" y="8" width="344" height="344" rx="34" fill="none" stroke="#ff4133" stroke-opacity="0.6" stroke-width="2.5"/>
+  <g transform="translate(180,148)">
+    <path d="M0,-94 L80,-59 V6 C80,59 45,94 0,114 C-45,94 -80,59 -80,6 V-59 Z" fill="url(#fnRed)"/>
+    <path d="M0,-94 L80,-59 V6 C80,59 45,94 0,114 C-45,94 -80,59 -80,6 V-59 Z" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2.5"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="800" fill="#fff">NSE</text>
+    <text x="0" y="34" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#fff" letter-spacing="4">1·2·3</text>
+    <path d="M-22,66 l15,15 l32,-34" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="180" y="304" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" fill="#fff">FORTINET</text>
+  <text x="180" y="328" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" fill="#ff8a80" letter-spacing="1">Network Security Expert</text>
+  <g clip-path="url(#fnClip)"><rect x="8" y="8" width="344" height="190" fill="url(#fnGloss)"/></g>
+</svg>
